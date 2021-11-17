@@ -16,6 +16,6 @@ module.exports.checkLocation = (req,res) => {
       const timeEnd = performance.now()
       console.log(timeEnd - timeNow)
     } catch (error) {
-        console.log(error)
+      console.log(error)
     }
 }
